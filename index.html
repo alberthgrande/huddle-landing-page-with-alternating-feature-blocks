@@ -26,11 +26,17 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <img src="./images/logo.svg" alt="" />
+        <img src="./images/logo.svg" alt="logo" />
         <a class="try-it__link" href="#"> Try It Free </a>
       </nav>
       <div class="container">
@@ -54,7 +60,7 @@
       <section class="main__container">
         <div class="card">
           <div class="card-content">
-            <h2 class="title">Grow Together</h2>
+            <h2 class="card__title title">Grow Together</h2>
 
             <p>
               Generate meaningful discussions with your audience and build a
@@ -76,7 +82,7 @@
             alt="illustration-flowing-conversation"
           />
           <div class="card-content">
-            <h2 class="title">Flowing Conversations</h2>
+            <h2 class="card__title title flowing">Flowing Conversations</h2>
 
             <p>
               You wouldn't paginate a conversation in real life, so why do it
@@ -88,7 +94,7 @@
 
         <div class="card">
           <div class="card-content">
-            <h2 class="title">Your Users</h2>
+            <h2 class="card__title title">Your Users</h2>
 
             <p>
               It takes no time at all to integrate Huddle with your app's
@@ -116,27 +122,70 @@
         </div>
 
         <!--  -->
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua
-        <!--  -->
-        +1-543-123-4567 example@huddle.com
-        <!--  -->
-        About Us What We Do FAQ
-        <!--  -->
-        Career Blog Contact Us
-        <!--  -->
-        &copy; Copyright 2018 Huddle. All rights reserved.
+        <div class="footer__link">
+          <div class="footer_logo">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+
+          <div class="footer__link-content">
+            <div class="footer-card-one">
+              <div class="footer-location">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
+
+              <div>
+                <ul>
+                  <li class="footer__contact">
+                    <a class="footer-phone" href="#">+1-543-123-4567</a>
+                  </li>
+                  <li class="footer__contact">
+                    <a class="footer-email" href="#">example@huddle.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-card-two">
+              <div>
+                <ul>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">What We Do</a></li>
+                  <li><a href="">FAQ</a></li>
+                </ul>
+              </div>
+
+              <div>
+                <ul>
+                  <li><a href="">Career</a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer__social-media">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+          <!--  -->
+          <div class="copy">
+            &copy; Copyright 2018 Huddle. All rights reserved.
+          </div>
+        </div>
       </div>
-      <!--  -->
-      <!--  -->
-      <!--  -->
-      <!--  -->
-      <!-- <p class="attribution">
+
+      <p class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p> -->
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor</a
+        >. <br />
+        Coded by <a href="#">Alberth Grande</a>.
+      </p>
     </footer>
   </body>
 </html>
