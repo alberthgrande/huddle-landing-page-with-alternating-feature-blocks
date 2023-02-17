@@ -10,11 +10,17 @@
 
   --ff-body: "Open Sans", sans-serif;
   --ff-heading: "Poppins", sans-serif;
+
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
 }
 
-header {
-  background: url(../images/bg-hero-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
